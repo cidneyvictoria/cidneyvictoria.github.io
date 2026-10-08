@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cidney | BSIT Student Portfolio</title>
+<meta name="description" content="Portfolio of Cidney, BSIT student at PUP Calauan, Laguna.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">Cidney</a>
+  <button id="menu-btn" aria-label="Menu">&#9776;</button>
+  <nav id="menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="theme-btn" aria-label="Toggle dark mode">&#9680;</button>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <p class="eyebrow">Hi, I'm</p>
+    <h1>Cidney Victoria</h1>
+    <p class="lead">BSIT student building web apps and APIs with Java, C#, PHP and JavaScript.</p>
+    <p>
+      <a class="btn" href="#projects">View Projects</a>
+      <a class="btn ghost" href="https://github.com/cidneyvictoria" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm a third-year Bachelor of Science in Information Technology student at the Polytechnic University of the Philippines, Calauan, Laguna Campus. I enjoy turning coursework into working projects, from REST APIs to responsive web pages and database-backed apps.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="tags">
+      <li>Java</li><li>C#</li><li>PHP</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li>
+      <li>Spring Boot</li><li>ASP.NET Core</li><li>Laravel</li><li>PostgreSQL</li>
+      <li>REST APIs</li><li>Docker</li><li>Git &amp; GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Pokédex REST API (Spring Boot)</h3>
+        <p>Full Pokédex REST API with a connected HTML/JS frontend.</p>
+        <p class="stack">Java · Spring Boot · HTML/JS</p>
+        <a href="https://github.com/cidneyvictoria/pokedex-spring-boot" target="_blank" rel="noopener">View repo</a>
+      </article>
+      <article class="card">
+        <h3>MedTrack Landing Page</h3>
+        <p>Responsive static landing page for the MedTrack wellness reminder capstone concept.</p>
+        <p class="stack">HTML5 · CSS3</p>
+        <a href="https://github.com/cidneyvictoria/medtrack-landing-page" target="_blank" rel="noopener">View repo</a>
+      </article>
+      <article class="card">
+        <h3>Laravel Blade Multi-Page Site</h3>
+        <p>Routed multi-page website built with Laravel Blade templates.</p>
+        <p class="stack">PHP · Laravel · Blade</p>
+        <a href="https://github.com/cidneyvictoria/webdev-week06-group12" target="_blank" rel="noopener">View repo</a>
+      </article>
+      <article class="card">
+        <h3>Laravel + PostgreSQL Product Module</h3>
+        <p>Database connection, migrations, a ProductController, and custom request-logging middleware.</p>
+        <p class="stack">PHP · Laravel · PostgreSQL</p>
+        <a href="https://github.com/cidneyvictoria/webdev-week07-group12" target="_blank" rel="noopener">View repo</a>
+      </article>
+      <article class="card">
+        <h3>Web Development Week 05 (Group Project)</h3>
+        <p>Group PHP project for the Web Development course.</p>
+        <p class="stack">PHP</p>
+        <a href="https://github.com/cidneyvictoria/webdev-week05-group12" target="_blank" rel="noopener">View repo</a>
+      </article>
+      <article class="card">
+        <h3>PHP Activity (Week 04)</h3>
+        <p>Server-side scripting activity covering PHP basics.</p>
+        <p class="stack">PHP</p>
+        <a href="https://github.com/cidneyvictoria/week04-php-activity" target="_blank" rel="noopener">View repo</a>
+      </article>
+      <article class="card">
+        <h3>Web Development Week 01</h3>
+        <p>First web development course activity built with HTML.</p>
+        <p class="stack">HTML</p>
+        <a href="https://github.com/cidneyvictoria/webdev-week01-victoria-cidney." target="_blank" rel="noopener">View repo</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:cidneyvictoria@gmail.com">cidneyvictoria@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/cidneyvictoria" target="_blank" rel="noopener">github.com/cidneyvictoria</a></p>
+    <p>Location: Laguna, Philippines</p>
+  </section>
+</main>
+
+<footer><p>&copy; <span id="year"></span> Cidney. Built with HTML, CSS and JS.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
